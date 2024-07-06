@@ -6,6 +6,7 @@ import Exe_1Btn from './UseState Exercises/Exe_1Btn'
 import Text from './UseState Exercises/Text'
 import Conditional_1 from './UseState Exercises/Conditionals/Conditional_1'
 import DarkMode from './UseState Exercises/Conditionals/DarkMode'
+import Btn from './Style Module/Btn'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
     <>
 {/* <Exe_1Btn/>
 <Text/> */}
-<Conditional_1/>
-<DarkMode/>
+{/* <Conditional_1/>
+<DarkMode/> */}
+<Btn/>
     </>
   )
 }

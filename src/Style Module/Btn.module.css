@@ -1,0 +1,12 @@
+.danger{
+  background: red;
+}
+.warning{
+  background: gold;
+}
+.normal{
+  background: cyan;
+}
+.original{
+  background: green;
+}
