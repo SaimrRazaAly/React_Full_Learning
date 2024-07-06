@@ -7,6 +7,7 @@ import Text from './UseState Exercises/Text'
 import Conditional_1 from './UseState Exercises/Conditionals/Conditional_1'
 import DarkMode from './UseState Exercises/Conditionals/DarkMode'
 import Btn from './Style Module/Btn'
+import PAssWord_Show from './UseState Exercises/Projects/PAssWord_Show'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
 <Text/> */}
 {/* <Conditional_1/>
 <DarkMode/> */}
-<Btn/>
+{/* <Btn/> */}
+<PAssWord_Show/>
     </>
   )
 }
