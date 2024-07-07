@@ -1,0 +1,35 @@
+.faqbox{
+  width: 1320px;
+  margin: auto;
+}
+.faqitem{
+  border: 1px solid red;
+  margin-bottom: 20px;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+.faqitem h2{
+  background: #282c34;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  color: #fff;
+}
+.para{
+  transform: scaleY(0);
+  margin: 0;
+  padding: 0;
+  height: 0;
+  text-align: left;
+  transition: .5s;
+}
+
+.showAnswer{
+  transform: scaleY(1);
+  margin: 0;
+  padding: 10px;
+  height: auto;
+
+}
