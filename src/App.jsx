@@ -9,6 +9,7 @@ import Btn from './Style Module/Btn'
 import PAssWord_Show from './UseState Exercises/Projects/PAssWord_Show'
 import ToogleMEnue from './UseState Exercises/Projects/ToogleMEnue'
 import FAQSection from './UseState Exercises/Projects/HugeProjects/FAQSection'
+import FaqBox from './UseState Exercises/Projects/HugeProjects/AllFaqComponents/FaqBox'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
 {/* <Btn/> */}
 {/* <PAssWord_Show/> */}
 {/* <ToogleMEnue/> */}
-<FAQSection/>
+{/* <FAQSection/> */}
+<FaqBox/>
     </>
   )
 }
