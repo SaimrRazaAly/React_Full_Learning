@@ -10,6 +10,7 @@ import PAssWord_Show from './UseState Exercises/Projects/PAssWord_Show'
 import ToogleMEnue from './UseState Exercises/Projects/ToogleMEnue'
 import FAQSection from './UseState Exercises/Projects/HugeProjects/FAQSection'
 import FaqBox from './UseState Exercises/Projects/HugeProjects/AllFaqComponents/FaqBox'
+import Notification from './ReactNotifications/Notification'
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
 {/* <PAssWord_Show/> */}
 {/* <ToogleMEnue/> */}
 {/* <FAQSection/> */}
-<FaqBox/>
+{/* <FaqBox/> */}
+<Notification/>
     </>
   )
 }

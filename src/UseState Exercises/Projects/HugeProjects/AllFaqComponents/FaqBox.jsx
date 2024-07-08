@@ -15,7 +15,7 @@ let faqTData = questions.map((details,i)=>{
   }
   // here we will pass the data
   return(
-    <Box finalData={FaqDetails} />
+    <Box finalData={FaqDetails} key={i}/>
 
   )
 })
