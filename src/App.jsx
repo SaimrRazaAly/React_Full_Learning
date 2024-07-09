@@ -11,6 +11,7 @@ import ToogleMEnue from './UseState Exercises/Projects/ToogleMEnue'
 import FAQSection from './UseState Exercises/Projects/HugeProjects/FAQSection'
 import FaqBox from './UseState Exercises/Projects/HugeProjects/AllFaqComponents/FaqBox'
 import Notification from './ReactNotifications/Notification'
+import TodoApp from './UseState Exercises/Projects/HugeProjects/TodoListApp/TodoApp'
 
 function App() {
 
@@ -25,7 +26,10 @@ function App() {
 {/* <ToogleMEnue/> */}
 {/* <FAQSection/> */}
 {/* <FaqBox/> */}
-<Notification/>
+{/* <Notification/> */}
+
+{/* now we will make a todo app */}
+<TodoApp/>
     </>
   )
 }

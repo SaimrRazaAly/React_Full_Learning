@@ -1,5 +1,5 @@
 import 'react-toastify/dist/ReactToastify.css';
-
+import 'react-notifications/lib/Notifications.css';
 import { ToastContainer, toast } from 'react-toastify';
 const Notification = () => {
 
