@@ -42,7 +42,7 @@ input:focus {
   width: 70%;
 }
 button:hover {
-  rotate: 20deg;
+  /* rotate: 20deg; */
 }
 
 li {
