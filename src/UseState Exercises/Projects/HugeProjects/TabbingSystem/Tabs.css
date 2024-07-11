@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  gap: 10px;
+}
+.container li{
+list-style: none;
+}
+.active{
+  color: red;
+  background: orange;
+}

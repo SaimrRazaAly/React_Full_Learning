@@ -25,7 +25,7 @@ input {
   font-size: 18px;
   transition: 0.5s;
 }
-button {
+.button {
   background: orange;
   color: #ffff;
   padding: 8px 12px;
@@ -45,7 +45,7 @@ button:hover {
   /* rotate: 20deg; */
 }
 
-li {
+.li {
   list-style: none;
   padding: 20px;
   font-size: 20px;
@@ -56,7 +56,7 @@ li {
   display: flex;
   justify-content: space-between;
 }
-span {
+.span {
   color: red;
   font-size: 26px;
   font-weight: 900;

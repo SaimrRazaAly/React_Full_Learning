@@ -12,6 +12,7 @@ import FAQSection from './UseState Exercises/Projects/HugeProjects/FAQSection'
 import FaqBox from './UseState Exercises/Projects/HugeProjects/AllFaqComponents/FaqBox'
 import Notification from './ReactNotifications/Notification'
 import TodoApp from './UseState Exercises/Projects/HugeProjects/TodoListApp/TodoApp'
+import Tabs from './UseState Exercises/Projects/HugeProjects/TabbingSystem/Tabs'
 
 function App() {
 
@@ -29,7 +30,9 @@ function App() {
 {/* <Notification/> */}
 
 {/* now we will make a todo app */}
-<TodoApp/>
+{/* <TodoApp/> */}
+{/* Tabbong Menu */}
+<Tabs/>
     </>
   )
 }
