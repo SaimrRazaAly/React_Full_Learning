@@ -1,0 +1,16 @@
+.input{
+  width:400px;
+  margin: 10px  20px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.input:focus{
+  width:400px;
+}
+.containeri{
+  display:flex;
+  width: 100%;
+  gap: 40px;
+}

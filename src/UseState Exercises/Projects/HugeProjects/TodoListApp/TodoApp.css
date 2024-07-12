@@ -1,9 +1,9 @@
-.form {
+/* .form {
   display: flex;
-  /* justify-content: center; */
+  /* justify-content: center; 
   flex-direction: column;
-  /* align-items: center; */
-  /* border: 1px solid orange; */
+  /* align-items: center; 
+  /* border: 1px solid orange; 
   background: rgba(249, 240, 240, 0.4);
   box-shadow: 0 0 20px orange;
   padding: 20px 15px;
@@ -42,7 +42,7 @@ input:focus {
   width: 70%;
 }
 button:hover {
-  /* rotate: 20deg; */
+  rotate: 20deg; 
 }
 
 .li {
@@ -61,4 +61,4 @@ button:hover {
   font-size: 26px;
   font-weight: 900;
   cursor: pointer;
-}
+} */

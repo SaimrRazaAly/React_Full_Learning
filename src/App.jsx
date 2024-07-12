@@ -13,6 +13,8 @@ import FaqBox from './UseState Exercises/Projects/HugeProjects/AllFaqComponents/
 import Notification from './ReactNotifications/Notification'
 import TodoApp from './UseState Exercises/Projects/HugeProjects/TodoListApp/TodoApp'
 import Tabs from './UseState Exercises/Projects/HugeProjects/TabbingSystem/Tabs'
+import ControlForm from './UseState Exercises/FormHandaling/ControlForm'
+import Form from './UseState Exercises/RealForm/Form'
 
 function App() {
 
@@ -32,7 +34,12 @@ function App() {
 {/* now we will make a todo app */}
 {/* <TodoApp/> */}
 {/* Tabbong Menu */}
-<Tabs/>
+{/* <Tabs/> */}
+
+{/* form input data handling */}
+{/* <ControlForm/> */}
+<Form/>
+
     </>
   )
 }
