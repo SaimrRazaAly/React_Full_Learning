@@ -135,6 +135,7 @@ const Form = () => {
   });
 
   let [userData, setuserData] = useState([]);
+  // console.log(userData);
 
   let getValue = (event) => {
     let oldData = { ...formData };
@@ -152,12 +153,27 @@ const Form = () => {
       uphone: formData.uphone,
       umessage: formData.umessage,
     };
-    let allUserData = [...userData, currentData];
-    console.log(allUserData);
-    setuserData(allUserData);
-
-    event.preventDefault();
+    // alert(userData.length)
+    // console.log(formData)
+  let UserDatafilter = userData.filter(value => value.uemail == formData.uemail || value.uphone == formData.uphone);
+    if (UserDatafilter.length ==1) {
+      alert("Phone Number Or Email Already Exist...");
+    } else {
+      let allUserData = [...userData, currentData];
+      // console.log(allUserData);
+      // console.log(userData);
+      setuserData(allUserData);
+      setformData({
+        uname: "",
+        uemail: "",
+        uphone: "",
+        umessage: "",
+        index: "",
+      });
+    }
+   event.preventDefault();
   };
+
   return (
     <>
       <form className="container" onSubmit={handleSubmit}>
@@ -166,6 +182,7 @@ const Form = () => {
           onChange={getValue}
           name="uname"
           value={formData.uname}
+          required
           placeholder="enter someting..."
         />
         <label>Email</label>
@@ -196,7 +213,7 @@ const Form = () => {
       </form>
 
       <div className="table-area">
-        {" "}
+      
         <table>
           <thead>
             <tr className="bold">
@@ -206,12 +223,14 @@ const Form = () => {
               <td>Message</td>
             </tr>
           </thead>
-
-          {userData.length >= 1 ? (
+<tbody>
+  
+          {userData.length >0 ? (
             userData.map((obj, i) => {
               return (
                 <>
                   <tr>
+                    <td>{i+1}</td>
                     <td>{obj.uname}</td>
                     <td>{obj.uemail}</td>
                     <td>{obj.uphone}</td>
@@ -221,10 +240,10 @@ const Form = () => {
               );
             })
           ) : (
-            <h1>No Data Enterd</h1>
+            <tr>No Data Enterd</tr>
           )}
+          </tbody>
         </table>
-        //{" "}
       </div>
     </>
   );
